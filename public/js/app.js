@@ -14,7 +14,7 @@ dateElement.textContent = new Date().getDate() + ' , ' + monthNames[new Date().g
 weatherForm.addEventListener('submit', (event) => {
     event.preventDefault();
     console.log(search.value);
-    locationElement.textContent = 'Kraunasi...';
+    locationElement.textContent = 'Loading...';
     tempElement.textContent = '';
     weatherCondition.textContent = '';
     const locationApi = fetchWeather + "?address=" + search.value;
