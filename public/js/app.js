@@ -7,7 +7,7 @@ const weatherCondition = document.querySelector('.weatherCondition');
 const tempElement = document.querySelector('.temperature span');
 const locationElement = document.querySelector('.place');
 const dateElement = document.querySelector('.date');
-const monthNames = ["Sausio", "Vasario", "Kovo", "Balandžio", "Gegužės", "Birželio", "Liepos", "Rugpjūčio", "Rugsėjo", "Lapkričio","Spalio", "Gruodžio"]
+const monthNames = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October","November", "December"]
 dateElement.textContent = new Date().getDate() + ' , ' + monthNames[new Date().getMonth()].substring(0,3);
 
 
